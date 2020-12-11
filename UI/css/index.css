@@ -1,0 +1,102 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: lightskyblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heading1{
+    display: grid;
+    justify-content: end;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+
+#Signin-area{
+    float: right;
+    margin-right: 15px;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: rgb(207,232,220);
+    padding: 1em;
+    
+  
+}
+#flexbox{
+    display: flex;
+    justify-content: space-around;  
+}
+
+#email-area{
+    display: grid;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0.151);
+    height: 50px
+}
+#email-area:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+#password-area{
+    display: grid;
+    background-color: black;
+    border: 1px solid rgba(0,0,0,0.151);
+    height: 50px;
+    
+}
+#password-area:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+
+.buffer{
+	height: 10rem;
+}
+.buffer1{
+    height: 60px;
+}
+.buffer2{
+    height: 60px;
+}
+.Signin-btn{
+  background-color: black;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  
+}
+.Signin-btn:hover{
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+}
+
+.Signup-btn{
+    background-color: black;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.Signup-btn:hover{
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+
+}
