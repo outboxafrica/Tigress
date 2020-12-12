@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: linear-gradient(to right,white,blue);
+    width: 70%;
+    height: 100vh;
+    margin:2% 15% 15% 15%;
+}
+.container .form{
+    outline: 2px green solid;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 7%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+#submit{
+    background-color: green;
+    color: aliceblue;
+    width: 60%;
+    height: 3em;
+    border-radius: 12%;
+}
+.logo{
+    animation-name: rotate;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rotate{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+}
+input{
+    width: 100%;
+}
