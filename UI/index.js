@@ -1,9 +1,9 @@
-function validate{
+function validate(){
     var password = document.getElementById("password").Value;
     var cpassword = document.getElementById("cpassword").Value;
-    if(password=="" || password==" ")
+    if(password != cpassword)
     {
-        alert("Password should not be a null or an empty string.")
+        alert("Pass and confirm password does not match");
         return false;
     }
 }
