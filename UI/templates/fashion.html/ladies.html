@@ -10,17 +10,23 @@
 <body>
     <header class="header">
         <div style="display: flex;">
-        <img class="logo" src="../../Images/logo.jpg.png" alt="logo">
-    <div class="search">
-        <form>
-    <i class="fa fa-search" aria-hidden="true"></i>
-    <input type="search" id="input"  placeholder="serach product, brand and categories">
-    <button id="btn">serach</button>
-    </form>
-    <h1>Fashion</h1>
-    </div>
+            <img class="logo" src="../../Images/logo.jpg.png" alt="logo">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#fashion">Fashion</a>
+            <a href="#healthcare">Healthcare</a>
+        </div>  
+                <div class="search">
+                    <form>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="search search-holder" id="input" placeholder="search product, brand and categories">
+                        <button id="btn">search</button>
+                    </form>
+    
+                    <h1>Fashion</h1>
+                </div>
         </div>
-        <div id="cat">
+        <div class="cat">
             <h2>Categories</h2>
             <nav class="nav">
             <ul>
@@ -30,15 +36,13 @@
             </ul>
         </nav>
         </div>
-        <h2 class="men">Women's Fashion</h2>
     </header>
     <hr>
     <div class="container">
-    
     <div class="img">
     <h3>Night wares</h3>
-    <img class="image" src="../../Images/ladie.JPEG.jpg" alt="longdress">
-    <p>Ladies short Elegant night dresses darkblue </p>
+    <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/ladie.JPEG.jpg" alt="longdress">
+    <p>Ladies short Elegant night dress darkblue </p>
     <div class="cart">
     <p id="price" >UGX 40,000</p>
     <button class="btn">ADD TO CART</button>
@@ -46,16 +50,16 @@
     </div>
     <div class="img">
     <h3>Short dress</h3>
-    <img class="image" src="../../Images/flowered.JPEG.jpg" alt="shortdress">
+    <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/flowered.JPEG.jpg" alt="shortdress">
     <p>Ladies elgant short round dress maroon color</p>
     <div class="cart">
     <p id="price">UGX 25,000</p>
     <button class="btn">ADD TO CART</button>
     </div>
     </div>
-    <div>
+    <div class="img">
     <h3>Ladies jewellery</h3>
-    <img class="image" src="../../Images/Neckless.JPEG.jpg" alt="pants">
+    <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/Neckless.JPEG.jpg" alt="pants">
     <p>Ladies jewellery rings,neckless,ear pins</p>
     <div class="cart">
     <p id="price">UGX 20,000-50,000</p>
@@ -65,7 +69,7 @@
     <hr>  
    <div class="img">
     <h3>Cross bag</h3>
-     <img class="image" src="../../Images/crossbag.pJPEG.jpg" alt="small bags">
+     <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/crossbag.pJPEG.jpg" alt="small bags">
     <p>Small shoulder bag pink in color</p>
     <div class="cart">
     <p id="price">UGX 20,000</p>
@@ -74,7 +78,7 @@
    </div>
    <div class="img">
     <h3>Ladies Ring</h3>
-     <img class="image" class="image" src="../../Images/Ring.JPEG.jpg" alt="cross bags">
+     <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" class="image" src="../../Images/Ring.JPEG.jpg" alt="cross bags">
     <p>Diamond ring with a diamond stone</p> 
     <div class="cart">
     <p id="price">UGX 25,000</p>
@@ -83,7 +87,7 @@
    </div>
 <div class="img">
     <h3>Hand bag</h3>
-     <img class="image" src="../../Images/Handbag.JPEG.jpg" alt="handbag">
+     <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/Handbag.JPEG.jpg" alt="handbag">
     <p>Lady handbag 3 in 1 multiple colors</p>
     <div class="cart">
     <p id="price">UGX 50,000</p>
@@ -92,7 +96,7 @@
 </div>
 <div class="img">
     <h3>High heels</h3>
-     <img class="image" src="../../Images/heel.JPEG.jpg" alt="high heels">
+     <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/heel.JPEG.jpg" alt="high heels">
     <p> Pionted heel</p>
     <div class="cart">
     <p id="price"> UGX 80,000</p>
@@ -101,7 +105,7 @@
 </div>
 <div class="img">
 <h3>Sneakers</h3>
-<img class="image" src="../../Images/sneaker.JPEG.jpg" alt="sneakers">
+<img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../../Images/sneaker.JPEG.jpg" alt="sneakers">
 <p>Ladies running shoes</p>
 <div class="cart">
 <p id="price">UGX 65,000-75,000</p>
@@ -110,14 +114,26 @@
 </div>
 <div class="img">
 <h3>Bracelet</h3>
-<img class="image"src="../../Images/bracelet.JPEG.jpg" alt="bracelet">
+<img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image"src="../../Images/bracelet.JPEG.jpg" alt="bracelet">
 <p>Ladies bracelet siliver </p>
 <div class="cart">
 <p id="price">UGX 35000-41,000,</p>
 <button class="btn">ADD TO CART</button>
 </div>
     </div>
-    </div>
+    </div> 
+    <section class="footer-section">
+        <footer class="footer">
+                <h4>contact us</4>
+            <div class="cont">
+                <img src="../../Images/facebook.jpg" alt="logo for facebook">
+                <img src="../../Images/twiter.jpg" alt="logo for twiter">
+                <img src="../../Images/wat.jpg" alt="logo for watup">
+            </div>
+                  </footer>
+        </section>
+
+    <script src="../../scripts/fashion.js"></script>
 
 </body>
 </html>
