@@ -1,0 +1,49 @@
+.container-element{
+    display: flex;
+    justify-content: center;
+}
+.header span:first-child{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.form .first-input{
+    padding:5px;
+    display:flex;
+}
+#fname,#lname{
+    border-radius: 5px;
+}
+.form .second-input{
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+}
+#number,#password{
+    border-radius: 5px;
+}
+.birthday, .gender{
+    font-weight: bold;
+}
+.select-box{
+    display: flex;
+    justify-content: space-between;
+}
+.select-box select{
+    border-radius: 5px;
+}
+.radio-buttons{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    background-color:blue;
+    color:whitesmoke;
+    flex-grow: 1;
+    height: 2rem;
+    border-radius:5px;
+}
