@@ -1,5 +1,7 @@
 html{
     height: 100%;
+    width: 100%;
+    
 }
 
 body{
@@ -11,9 +13,42 @@ body{
     background-repeat: no-repeat;
 }
 
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    
+  }
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: lightskyblue;
+  }
+
 #heading1{
-    display: grid;
+    /* display: grid;
     justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif; */
+    position: absolute;
+    left: 40%;
+    top: 10%;
     font-family: 'Open Sans Condensed', sans-serif;
     
 }
@@ -25,6 +60,7 @@ body{
     /* min-height: 100%; */
     position: absolute;
     top: 50%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%,-50%);
     width:400px;
@@ -67,19 +103,19 @@ body{
 
 
 .buffer{
-	height: 10rem;
+	height: 5rem;
 }
 .buffer1{
-    height: 60px;
+    height: 30px;
 }
 .buffer2{
-    height: 60px;
+    height: 30px;
 }
 .Signin-btn{
-  background-color: black;
+  background-color: whitesmoke;
   border-radius: 20px;
   outline: none;
-  color: white;
+  color: black;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -95,10 +131,10 @@ body{
 }
 
 .Signup-btn{
-    background-color: black;
+    background-color: whitesmoke;
     border-radius: 20px;
     outline: none;
-    color: white;
+    color: black;
     padding: 8px 16px;
     text-align: center;
     text-decoration: none;
@@ -112,3 +148,19 @@ body{
     color: white;
 
 }
+.Footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  /* text-align: center; */
+}
+
+.Follow-us{
+    display: flex;
+    
+}
+
+
