@@ -16,82 +16,36 @@
     }
 
     </script>
-    <title>SingUp Page</title>
+    <title>SignUp Page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="logo">
-            <img src="DUUKA_LOGO.png" alt="LOGO" width="150" height="130"/>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <img src="DUUKA_LOGO.png " width="50px" >
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
         </div>
-
-
-        <div class="form">
-                <span class="signup_text">SignUp</span>
-            <form onsubmit="return validate()">
-                <table>
-
-                    <tr>
-                        <td>
-                            FirstName:
-                        </td>
-                        <td>
-                            <input type="text"  id="fname" required/>
-                        </td>
-                    </tr><br>
-
-                    <tr>
-                        <td>
-                            LastName:
-                        </td>
-                        <td>
-                            <input type="text"  id="lname" required/>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            Telephone:
-                        </td>
-                        <td>
-                            <input type="tel"  id="tel" required/>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            Email:
-                        </td>
-                        <td>
-                            <input type="email"  id="email"/>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            Password:
-                        </td>
-                        <td>
-                            <input type="password"  id="password"/>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            Confirm Password:
-                        </td>
-                        <td>
-                            <input type="password"  id="cpassword"/>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <input type="submit" value="Submit" id="submit"/>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-    </div>
+      </form>
 </body>
 </html>
