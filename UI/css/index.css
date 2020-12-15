@@ -303,18 +303,26 @@ display: flex;
     visibility: hidden;
 }
 .footer-section{
-    display: inline-flex;
-    padding-right: 30px;
-    margin: 5px;
+    margin: 25px;
+    background-color: rgb(246, 139, 30);;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#p{
+    text-align: left;
+    font-size: 15px;
 }
 .cont{
-    display: inline-block;
-    box-shadow:0 2px 10px rgba(0,0,0,0.20) ;
+    display: block;
 }
 img{
     width: 50px;
-    min-height: auto;
+    max-height: auto;
     display: inline-block;
+    justify-content: space-around;
     
 }
 @media screen and (max-width: 992px) {
