@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion page</title>
+    <link rel="stylesheet" href="../../css/fashion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <div id="container">
+
+            <nav class="menu">
+                <ul>
+                    <li><img class="logo" src="../../Images/logo.jpg.png" alt="logo"></li>
+                    <li><a href="fashions.htm">Fashions</a></li>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="electronics.htm">Electronics</a></li>
+                    <li><a href="health.html">Heath Care</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="text" id="search" placeholder="Search" onchange="openpage()">
+                    <button>Search</button>
+                </form>
+            </nav>
+
+        </div>
+        </div>
+        <h1>Fashion</h1>
+
+        <nav class="nav">
+            <ul>
+                <a href="ladies.html">
+                    <li>Ladies</li>
+                </a>
+                <a href="men.html">
+                    <li>Men</li>
+                </a>
+                <a href="kids.html">
+                    <li>Kids</li>
+                </a>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <hr>
+    <div class="container">
+        <div class="img">
+            <h3>Night wares</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/ladie.JPEG.jpg" alt="longdress">
+            <p>Ladies short Elegant night dress darkblue </p>
+            <div class="cart">
+                <p id="price">UGX 40,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Short dress</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/flowered.JPEG.jpg" alt="shortdress">
+            <p>Ladies elgant short round dress maroon color</p>
+            <div class="cart">
+                <p id="price">UGX 25,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Ladies jewellery</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/Neckless.JPEG.jpg" alt="pants">
+            <p>Ladies jewellery rings,neckless,ear pins</p>
+            <div class="cart">
+                <p id="price">UGX 20,000-50,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <hr>
+        <div class="img">
+            <h3>Cross bag</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/crossbag.pJPEG.jpg" alt="small bags">
+            <p>Small shoulder bag pink in color</p>
+            <div class="cart">
+                <p id="price">UGX 20,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Ladies Ring</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" class="image"
+                src="../../Images/Ring.JPEG.jpg" alt="cross bags">
+            <p>Diamond ring with a diamond stone</p>
+            <div class="cart">
+                <p id="price">UGX 25,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Hand bag</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/Handbag.JPEG.jpg" alt="handbag">
+            <p>Lady handbag 3 in 1 multiple colors</p>
+            <div class="cart">
+                <p id="price">UGX 50,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>High heels</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../../Images/heel.JPEG.jpg"
+                alt="high heels">
+            <p> Pionted heel</p>
+            <div class="cart">
+                <p id="price"> UGX 80,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Sneakers</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/sneaker.JPEG.jpg" alt="sneakers">
+            <p>Ladies running shoes</p>
+            <div class="cart">
+                <p id="price">UGX 65,000-75,000</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="img">
+            <h3>Bracelet</h3>
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../../Images/bracelet.JPEG.jpg" alt="bracelet">
+            <p>Ladies bracelet siliver </p>
+            <div class="cart">
+                <p id="price">UGX 35000-41,000,</p>
+                <button class="btn">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <div class="Follow-us">
+            <h6>FOLLOW US</h6>
+            <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </div>
+
+
+        <script src="../../scripts/fashion.js"></script>
+
+</body>
+
+</html>
