@@ -8,32 +8,38 @@
     <link rel="stylesheet" href="../css/fashion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header class="header">
-    <div style="display: flex;">
-        <img class="logo" src="../Images/logo.jpg.png" alt="logo">
-    <div class="topnav">
-      <a href="../../home.html">Home</a>
-       <a href="../../fashion.html">Fashion</a>
-       <a href="../../healthcare.html">Healthcare</a>
-    </div>  
-            <div class="search">
-                <form>
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="search search-holder" id="input" placeholder="search product, brand and categories">
-                    <button id="btn">search</button>
-                </form>
+        <div id="Menu-bar">
+            <ul>
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul>
+            <div style="display: flex;">
+                <img class="logo" src="../Images/logo.jpg.png" alt="logo">
 
-                <h1>Healthcare</h1>
+                <div class="search">
+                    <form>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="search search-holder" id="input"
+                            placeholder="search product, brand and categories">
+                        <button id="btn">search</button>
+                    </form>
+                </div>
             </div>
-        </div>
+            <h1>Healthcare</h1>
+
     </header>
     <hr>
     <div id='container' class="container">
 
         <div class="img">
             <h3>Face mask</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/mask.PJEG.jpg" alt="face mask">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/mask.PJEG.jpg"
+                alt="face mask">
             <p>protective gears</p>
             <div class="cart">
                 <p id="price">UGX 20,000</p>
@@ -42,7 +48,8 @@
         </div>
         <div class="img">
             <h3>Hand santieser</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/handwash.JPEG.jpg" alt="handwash">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../Images/handwash.JPEG.jpg" alt="handwash">
             <p>Hand disinfantant</p>
             <div class="cart">
                 <p id="price">UGX 15,000</p>
@@ -51,7 +58,8 @@
         </div>
         <div class="img">
             <h3>First aid kit</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/kit.JPEG.jpg" alt="aid">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/kit.JPEG.jpg"
+                alt="aid">
             <p>Home first aid kit portable</p>
             <div class='cart'>
                 <p id="price">UGX 30,000</p>
@@ -60,7 +68,8 @@
         </div>
         <div class="img">
             <h3>Dental care</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/brush.png" alt="tooth">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/brush.png"
+                alt="tooth">
             <p>Toothpaste,toothbrush and other </p>
             <div class="cart">
                 <p id="price">UGX 25,000</p>
@@ -69,16 +78,18 @@
         </div>
         <div class="img">
             <h3>Personal hygien</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/showe gel.JEPG.jpg" alt="gel">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../Images/showe gel.JEPG.jpg" alt="gel">
             <p>Bathing gels</p>
             <div class="cart">
-              <p id="price">UGX 25,000</p>
-              <button class="btn">ADD TO CART</button>
+                <p id="price">UGX 25,000</p>
+                <button class="btn">ADD TO CART</button>
             </div>
         </div>
         <div class="img">
             <h3>Herbel container</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/herb.JPEG.jpg" alt="herbel">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/herb.JPEG.jpg"
+                alt="herbel">
             <p>Healthy herbel care</p>
             <div class="cart">
                 <p id="price">UGX 60,000</p>
@@ -87,7 +98,8 @@
         </div>
         <div class="img">
             <h3> Thermometer</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/Temperture .JPEG.jpg " alt="Temperture">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../Images/Temperture .JPEG.jpg " alt="Temperture">
             <p>Fore head thermometer</p>
             <div class="cart">
                 <p id="price">UGX 15,000</p>
@@ -96,7 +108,8 @@
         </div>
         <div class="img">
             <h3>Hair Trimer</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/men hair .JPEG.jpg" alt="hair">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image"
+                src="../Images/men hair .JPEG.jpg" alt="hair">
             <p>Kit for hair triming </p>
             <div class="cart">
                 <p id="price">UGX 50,000</p>
@@ -105,7 +118,8 @@
         </div>
         <div class="img">
             <h3>Body Lotion</h3>
-            <img onmouseout="hideCart()"  onmouseover="changeVisibility()" class="image" src="../Images/dove.jpg" alt="lotion">
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/dove.jpg"
+                alt="lotion">
             <p>Dove norishing body lotion</p>
             <div class="cart">
                 <p id="price">UGX 35,000</p>
@@ -115,48 +129,20 @@
     </div>
     <div class="Footer">
         <div class="Follow-us">
-          <h6>FOLLOW US</h6>
-          <a
-            href="https://facebook.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://twitter.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
+            <h6>FOLLOW US</h6>
+            <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
         </div>
-        <!-- <div class="contact">
-          <h6>Contact Us</h6>
-          <p>You can reach us via our social media platforms or Dial;+412789623/+2563945623</p>
-          </div>
-    <section class="footer-section">
-        <footer class="footer">
-                <h4>contact us</4>
-                        <p id="p">find us on facebook@onlineduuka,
-                           duukaonline on watup,
-                           duuka12 on twiter
-                        </p>
-            <div class="cont">
-                <img src="../Images/facebook.jpg" alt="logo for facebook">
-                <img src="../Images/twiter.jpg" alt="logo for twiter">
-                <img src="../Images/wat.jpg" alt="logo for watup">
-            </div>
-        </footer>
-        </section>
-    <script src="../scripts/fashion.js"></script>
+
+        <script src="../scripts/fashion.js"></script>
 
 </body>
-</html> 
+
+</html>

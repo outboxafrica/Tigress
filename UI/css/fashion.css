@@ -1,32 +1,58 @@
 html,body{
-    background-color: whitesmoke;
+    background-color: lightblue;
     margin: 0;
     justify-content: center;
 }
 .header{
-    background-color: rgba(0,0,0,0.12);
+    background-color: lightblue;
+    margin-top: 5em;
+
 }
-.topnav a{
-    float: left;
-  color: black;
-  text-align: center;
-  padding: 16px 20px;
-  padding-top: 30px;
-  padding-left: 30px;
-  text-decoration: none;
-  font-size: 17px;
+#menu-bar{
+    position: relative;
+    padding-right:30px ;
 }
+ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding-right:50px;
+    overflow: hidden;
+    background-color: lightblue;
+    
+  }
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  li a:hover {
+    background-color: lightskyblue;
+  }
 .logo{
     width: 90px;
     height: 50px;
     padding-top: 15px;
-    padding-left: 50px;
+    padding-left:80px;
 }
 .search{
     padding-top: 20px;
     justify-content: space-around;
     border: 1px thin grey;
-    padding-left: 4em;
+    padding-left: 8em;
 }
 .fa-search {
     position: relative;
@@ -38,7 +64,8 @@ html,body{
     border-radius: 10px;
     outline: none;
     font-size: 18px;
-    padding-left: 25px;
+    padding-left:20px;
+
 }
 #btn{
     background-color: rgb(246, 139, 30);
@@ -63,15 +90,11 @@ h2{
     color: blue;
     text-align: left;
 }
-.cat{
-    display: inline;
-    text-align: center;
-}
 #h{
     text-align: center;
 }
 .nau ul{
-    margin: 0;
+    margin: 20px;
 }
 .nav li{
 padding: 5px;
