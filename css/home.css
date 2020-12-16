@@ -23,9 +23,18 @@ padding: 0;
 line-height:60px;
 list-style:none;
 }
+.logo img{
+	width: 70px;
+	height: 70px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 15px;
+
+}
 .menu li{
 	float: left;
 	padding: 5px;
+	
 }
 .menu ul li a{
 	background: #142b47;
@@ -39,12 +48,12 @@ list-style:none;
 	font-size: 18px;
 	width: 150px;
 	height: 35px;
-	text-align: center;
 	line-height: 35px;
 	float: left;
 	position: relative;
 	border-radius: 8px;
 	margin-top: 15px;
+	margin-left: 30px;
 }
 .menu li a:hover{
 	color: #fff;
@@ -53,11 +62,11 @@ list-style:none;
     border: 3px solid white;
 }
 .search-form{
-	margin-top: 15px;
-	float: left;
-	margin-right: 50px;
+	margin-top: 70px;
+	align-items: center;
 	width: 10px;
 	display: flex;
+	margin-left: 255px;
 }
 input[type=text]{
 font-family: sans-serif;
@@ -85,6 +94,12 @@ button{
 #banner img{
 	width: 100%;
 	height: 70vh;
+	position: absolute;
+	-webkit-transition: opacity 3s ease;
+	transition: opacity 3s ease;
+}
+#banner img:hover{
+	opacity: 0;
 }
 #content{
 	width: 100%;
@@ -140,3 +155,18 @@ h2 {
 .price{
 	color: white;
 }
+.Footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: lightblue;
+	color: black;
+	/* text-align: center; */
+  }
+  
+  .Follow-us{
+	  display: flex;
+	  
+  }
+  
