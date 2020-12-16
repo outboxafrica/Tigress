@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ModifiedIndex.css"/>
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 </head>
 <body>
+    <div id="Menu-bar">
+        <ul>
+          <span style="float: left"
+            ><li>
+              <img
+                src="Images\Thu_10_12_2020_14_20_06.png"
+                width="50px"
+              /></li
+          ></span>
+          <li><a href="default.asp">Home</a></li>
+          <!-- <li><a href="news.asp">News</a></li>
+          <li><a href="contact.asp">Contact</a></li>
+          <li><a href="about.asp">About</a></li> -->
+        </ul>
+      </div>
     <div class="container-element">
 
         <form class="form">
@@ -22,7 +41,7 @@
         </div>
 
         <div class="second-input">
-            <input type="tel" id="number" placeholder="Mobile number" required /><br>
+            <input type="email" id="email" placeholder="Enter email Address" required /><br>
             <input type="password" id="password" placeholder="New password" required />
 
         </div>
@@ -70,15 +89,40 @@
             <div class="first-radio">
                 Male  <input type="radio" name="gender"/>
             </div>
-            <div class="first-radio">gi
-                Custom  <input type="radio" name="gender"/>
+            <div class="first-radio">
+                Other <input type="radio" name="gender"/>
             </div>
         </div>
 
         <div class="submit">
-            <input type="submit" value="Sign Up" id="submit"/>
+            <input type="submit" value="Submit" id="submit"/>
         </div>
         </form>
     </div>
+    <div class="Footer">
+        <div class="Follow-us">
+          <h6>FOLLOW US</h6>
+          <a
+            href="https://facebook.com/"
+            class="social-round-icon white-round-icon fa-icon"
+            title=""
+          >
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://twitter.com/"
+            class="social-round-icon white-round-icon fa-icon"
+            title=""
+          >
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            class="social-round-icon white-round-icon fa-icon"
+            title=""
+          >
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
 </body>
 </html>

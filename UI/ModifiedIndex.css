@@ -1,6 +1,63 @@
+html{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    color: lightgray;
+    background-image: url("../UI/Images/PIC\ 5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    
+  }
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  li a:hover {
+    background-color: lightskyblue;
+  }
+
+
 .container-element{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    background-color: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    box-shadow:0 15px 25px rgba(0, 0, 0, 0.5);
+    padding:40px;
+    border-radius: 10px;
+    
 }
 .header span:first-child{
     font-weight: bold;
@@ -11,6 +68,7 @@
     display:flex;
 }
 #fname,#lname{
+    outline: none;
     border-radius: 5px;
 }
 .form .second-input{
@@ -18,9 +76,11 @@
     display: flex;
     flex-direction: column;
 }
-#number,#password{
+#email,#password{
+    outline: none;
     border-radius: 5px;
 }
+
 .birthday, .gender{
     font-weight: bold;
 }
@@ -41,9 +101,40 @@
     justify-content: center;
 }
 #submit{
-    background-color:blue;
+    /* background-color:blue;
     color:whitesmoke;
     flex-grow: 1;
     height: 2rem;
-    border-radius:5px;
+    border-radius:5px; */
+    background-color: whitesmoke;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
+#submit:hover{
+    cursor: pointer;
+    background-color:rgb(89, 204, 219);
+    color: white;
+}
+
+.Footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    /* text-align: center; */
+  }
+  
+  .Follow-us{
+      display: flex;
+      
+  }
