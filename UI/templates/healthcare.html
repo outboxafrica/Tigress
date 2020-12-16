@@ -11,26 +11,25 @@
 
 <body>
     <header class="header">
-        <div id="Menu-bar">
-            <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="news.asp">News</a></li>
-                <li><a href="contact.asp">Contact</a></li>
-                <li><a href="about.asp">About</a></li>
-            </ul>
-            <div style="display: flex;">
-                <img class="logo" src="../Images/logo.jpg.png" alt="logo">
+        <div id="container">
 
-                <div class="search">
-                    <form>
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                        <input type="search search-holder" id="input"
-                            placeholder="search product, brand and categories">
-                        <button id="btn">search</button>
-                    </form>
-                </div>
-            </div>
-            <h1>Healthcare</h1>
+            <nav class="menu">
+                <ul>
+                    <li> <img class="logo" src="../Images/logo.jpg.png" alt="logo"></li>
+                    <li><a href="fashions.htm">Fashions</a></li>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="electronics.htm">Electronics</a></li>
+                    <li><a href="health.html">Heath Care</a></li>
+                </ul>
+                <form class="search-form">
+                    <input type="text" id="search" placeholder="Search" onchange="openpage()">
+                    <button>Search</button>
+                </form>
+            </nav>
+        </div>
+        </div>
+
+        <h1>Healthcare</h1>
 
     </header>
     <hr>
@@ -68,7 +67,7 @@
         </div>
         <div class="img">
             <h3>Dental care</h3>
-            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/brush.png"
+            <img onmouseout="hideCart()" onmouseover="changeVisibility()" class="image" src="../Images/oral b.jpg"
                 alt="tooth">
             <p>Toothpaste,toothbrush and other </p>
             <div class="cart">

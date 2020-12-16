@@ -6,69 +6,65 @@ html,body{
 .header{
     background-color: lightblue;
     margin-top: 5em;
-
 }
-#menu-bar{
-    position: relative;
-    padding-right:30px ;
-}
-ul {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 50%;
-    list-style-type: none;
-    margin: 0;
-    padding-right:50px;
-    overflow: hidden;
-    background-color: lightblue;
+    .menu{
+        height: 90px;
+        width: 100%;
+        background-color: skyblue;
+        z-index: 10;
+        overflow: auto;
     
-  }
-
-li{
-    float: right;
-}
-
-li a {
-    display: block;
-    font-size: 22px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
-
-  li a:hover {
-    background-color: lightskyblue;
-  }
-.logo{
-    width: 90px;
-    height: 50px;
-    padding-top: 15px;
-    padding-left:80px;
-}
-.search{
-    padding-top: 20px;
-    justify-content: space-around;
-    border: 1px thin grey;
-    padding-left: 8em;
-}
-.fa-search {
-    position: relative;
-    left: 25px;
-}
-#input{
-    width: 500px;
-    height: 40px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 18px;
-    padding-left:20px;
-
-}
-#btn{
-    background-color: rgb(246, 139, 30);
+    }
+    .menu ul{
+    margin: 0;
+    padding: 0;
+    line-height:60px;
+    list-style:none;
+    }
+    .menu li{
+        float: left;
+        padding: 15px;
+    }
+    .menu ul li a{
+        background: #142b47;
+        width: 130px;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #f2f2f2;
+        font-family: sans-serif;
+        font-size: 18px;
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        position: relative;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+    .menu li a:hover{
+        color: #fff;
+        font-size: 19px;
+        opacity: 0.5px;
+        border: 3px solid white;
+    }
+    .search-form{
+        margin-top: 25px;
+        float: left;
+        margin-right: 50px;
+        width: 30px;
+        display: flex;
+    }
+    input[type=text]{
+    font-family: sans-serif;
+    padding: 7px;
+    font-size: 16px;
+    border:none;
+    }
+    button{
+     background-color: rgb(246, 139, 30);
     border-radius: 5px;
     width: 200px;
     height: 40px;
@@ -77,7 +73,9 @@ li a {
     outline: none;
     border: none;
     color: white;
-}
+    padding-left: 50px;
+    }
+
 h1{
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
@@ -90,11 +88,10 @@ h2{
     color: blue;
     text-align: left;
 }
-#h{
-    text-align: center;
-}
+
 .nau ul{
     margin: 20px;
+
 }
 .nav li{
 padding: 5px;
@@ -103,7 +100,7 @@ display:inline-block ;
 }
 .nav a{
 text-decoration: none;
-text-emphasis: left;
+text-emphasis: left; 
 }
 .container{
     display: flex;
@@ -124,6 +121,7 @@ width:10%;
 margin: 5px;
 padding: 1em;
 box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+background-color: white;
 }
 .image{
     position: relative;
@@ -133,7 +131,7 @@ box-shadow: 0 2px 10px rgba(0,0,0,0.12);
     height: auto;
     width: 250px;
     max-height: 240px;
-    
+
 }
 p{
     font-size: 20PX;

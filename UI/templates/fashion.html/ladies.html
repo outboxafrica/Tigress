@@ -11,40 +11,40 @@
 
 <body>
     <header class="header">
-    <div id="Menu-bar">
-        <ul>
-          <li><a href="default.asp">Home</a></li>
-          <li><a href="news.asp">News</a></li>
-          <li><a href="contact.asp">Contact</a></li>
-          <li><a href="about.asp">About</a></li>
-        </ul>
-    </div>
-        <div style="display: flex;">
-            <img class="logo" src="../../Images/logo.jpg.png" alt="logo">
-          
-            <div class="search">
-                <form>
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="search search-holder" id="input" placeholder="search product, brand and categories">
-                    <button id="btn">search</button>
-                </form>
-            </div>
-        </div>
-                <h1>Fashion</h1>
-        
-            <nav class="nav">
+
+        <div id="container">
+
+            <nav class="menu">
                 <ul>
-                    <a href="ladies.html">
-                        <li>Ladies</li>
-                    </a>
-                    <a href="men.html">
-                        <li>Men</li>
-                    </a>
-                    <a href="kids.html">
-                        <li>Kids</li>
-                    </a>
+                    <li><img class="logo" src="../../Images/logo.jpg.png" alt="logo"></li>
+                    <li><a href="fashions.htm">Fashions</a></li>
+                    <li><a href="grocery.html">Grocery</a></li>
+                    <li><a href="electronics.htm">Electronics</a></li>
+                    <li><a href="health.html">Heath Care</a></li>
                 </ul>
+                <form class="search-form">
+                    <input type="text" id="search" placeholder="Search" onchange="openpage()">
+                    <button>Search</button>
+                </form>
             </nav>
+
+        </div>
+        </div>
+        <h1>Fashion</h1>
+
+        <nav class="nav">
+            <ul>
+                <a href="ladies.html">
+                    <li>Ladies</li>
+                </a>
+                <a href="men.html">
+                    <li>Men</li>
+                </a>
+                <a href="kids.html">
+                    <li>Kids</li>
+                </a>
+            </ul>
+        </nav>
         </div>
     </header>
     <hr>
@@ -143,32 +143,20 @@
     </div>
     <div class="Footer">
         <div class="Follow-us">
-          <h6>FOLLOW US</h6>
-          <a
-            href="https://facebook.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://twitter.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/"
-            class="social-round-icon white-round-icon fa-icon"
-            title=""
-          >
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
+            <h6>FOLLOW US</h6>
+            <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
         </div>
-         
 
-    <script src="../../scripts/fashion.js"></script>
+
+        <script src="../../scripts/fashion.js"></script>
 
 </body>
 
