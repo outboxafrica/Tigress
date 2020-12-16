@@ -5,7 +5,7 @@ html{
 }
 body{
     color: lightgray;
-    background-image: url("../UI/Images/PIC\ 5.jpg");
+    background-image: url("../Images/PIC\ 5.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: lightslategray;
     
   }
 
@@ -129,7 +129,7 @@ li a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: lightslategray;
     color: black;
     /* text-align: center; */
   }
