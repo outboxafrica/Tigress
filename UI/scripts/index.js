@@ -1,4 +1,4 @@
-function validate{
+function validate(){
     var password = document.getElementById("password").Value;
     var cpassword = document.getElementById("cpassword").Value;
     if(password=="" || password==" ")
@@ -7,3 +7,4 @@ function validate{
         return false;
     }
 }
+
